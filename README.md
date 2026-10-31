@@ -9,7 +9,7 @@ It does this on the keyboard itself: it remaps the `KC_LGUI` / `KC_RGUI` keymap 
 - Watches the foreground window and disables the Win keys when one of the configured programs (default `TslGame.exe`) has focus.
 - Choose which keys to disable: left Win, right Win, or both.
 - Adjustable delays before disabling and before restoring. The restore delay absorbs focus flicker when alt-tabbing.
-- Stateless and self-repairing: every apply compares the live keymap with a saved backup, so a keyboard left disabled after a crash gets fixed on the next run.
+- Stateless and self-repairing: every apply compares the live keymap with a saved backup, so a key left disabled after a crash gets fixed on the next run.
 - Tray icon shows whether the keys are enabled, disabled, or something needs attention.
 - Optional "Start with Windows".
 
