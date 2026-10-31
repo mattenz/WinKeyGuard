@@ -1,0 +1,11 @@
+bin/
+obj/
+publish/
+.vs/
+*.user
+
+# Keychron board files kept locally for reference only (see firmware/keymap.c for the change)
+q6_max/
+
+# Firmware images: build your own with firmware/build_fw.sh
+*.bin
